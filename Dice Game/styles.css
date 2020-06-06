@@ -1,0 +1,105 @@
+.container {
+  width: 70%;
+  margin: auto;
+  text-align: center;
+}
+
+.dice {
+  text-align: center;
+  display: inline-block;
+
+}
+
+.refresh-button {
+  display: block;
+  font-size: 1rem;
+  margin: 3% auto;
+  color:red;
+  font-family: 'Bevan', cursive;
+  background-color:#0095b7;
+  text-decoration: underline;
+  border: none;
+}
+
+.refresh-button:hover{
+background-color:#0095b7;
+color: white;
+text-decoration: underline;
+border: none;
+}
+
+.refresh-button:active{
+  background-color:#0095b7 !important;
+  color: white !important;
+  border: none !important;
+  text-decoration: underline !important;
+  position:relative;
+  top:1px;
+  outline: none !important;
+}
+
+btn:focus, a:focus{
+outline: none!important;
+}
+
+.refresh-button:focus{
+outline: none!important;
+box-shadow: none!important;
+}
+
+body {
+  background-color: #0095b7;
+}
+
+h1 {
+  margin: 2.5% 0;
+  margin-bottom: 0;
+  font-family: 'Bevan', cursive;
+  font-size: 5.5rem;
+  color: white;
+}
+
+p {
+  font-size: 2rem;
+  color: white;
+  font-family: 'Bevan', cursive;
+}
+
+img {
+  width: 80%;
+}
+
+footer {
+  padding-top: 2%;
+  margin-top: 3%;
+  margin-bottom: 3%;
+  color: white;
+  text-align: center;
+  font-family: 'Bevan', cursive;
+  font-size: 1rem;
+}
+
+@media (max-width: 1060px) {
+
+  h1 {
+    font-size: 4rem;
+  }
+
+}
+
+
+@media (max-width: 755px) {
+
+  h1 {
+    font-size: 3.25rem;
+  }
+
+}
+
+@media (max-width: 648px) {
+
+  h1 {
+    font-size: 2.5rem;
+  }
+
+}
